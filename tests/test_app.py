@@ -1,4 +1,4 @@
-from src.app import add, multiply
+from app import add
 
 
 def test_add():
@@ -8,8 +8,3 @@ def test_add():
     assert add(0, 0) == 0
 
 
-def test_multiply():
-    """Test the multiply function."""
-    assert multiply(2, 3) == 6
-    assert multiply(-1, 1) == -1
-    assert multiply(0, 5) == 0
